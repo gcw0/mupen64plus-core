@@ -50,7 +50,7 @@
   #define isnan _isnan
 #else
   #define M64P_FPU_INLINE static inline
-  #include <fenv.h>
+  //#include <fenv.h>
 #endif
 
 #define FCR31_CMP_BIT UINT32_C(0x800000)
